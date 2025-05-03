@@ -1,0 +1,218 @@
+.admin-sidebar {
+    width: 220px;
+    height: 100vh;
+    background: #111;
+    color: #fff;
+    position: fixed;
+    padding: 20px;
+  }
+  
+  .sidebar-logo {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-nav li {
+    margin: 15px 0;
+  }
+  
+  .sidebar-nav a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .sidebar-nav a:hover {
+    color: #00d1b2;
+  }
+  
+  .admin-navbar {
+    height: 60px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .navbar-welcome {
+    font-size: 16px;
+    color: #666;
+  }
+  .admin-panel {
+    display: flex;
+
+
+
+  }
+
+  .main-content {
+    width: 100%;
+    margin-left: 220px;
+    margin-top: -10px;
+  }
+  
+  .admin-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+
+  }
+ /* admin.css */
+
+.dashboard {
+  padding: 20px;
+  background-color: #f8f9fc;
+  min-height: 100vh;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+.stats-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 1 250px;
+  display: flex;
+  align-items: center;
+  border-left: 6px solid #4e73df;
+}
+
+.stat-icon {
+  font-size: 40px;
+  margin-right: 15px;
+}
+
+.stat-info h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.stat-info p {
+  margin: 0;
+  color: #6c757d;
+}
+.main-layout {
+  display: flex;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+.dashboard-container {
+  width: 1250px;
+  padding: 2rem;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+.dashboard-card {
+  height: 250px;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.card-value {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.mini-chart {
+  height: 200px;
+  margin-top: 1rem;
+}
+.admin-product-container {
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.admin-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.admin-product-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.admin-product-table th, .admin-product-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.admin-product-table th {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+
+.admin-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  margin: 2px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.admin-btn.update {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.admin-btn.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+

@@ -1,0 +1,120 @@
+.payment-page{
+    width: 100%;
+    margin-left: 100%;
+}
+
+.payment-container {
+    background-color: hsl(210, 20%, 98%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.payment-box {
+    max-width: 400px;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title and Subtitle */
+.payment-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.payment-subtitle {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Card Preview */
+.card-preview {
+    background: linear-gradient(135deg, #6366f1, #9333ea);
+    height: 180px;
+    border-radius: 12px;
+    padding: 16px;
+    color: white;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-number {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+/* Floating Animation */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.float-animation {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Form Inputs */
+.payment-form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    transition: 0.3s;
+}
+
+.payment-form input:focus {
+    border-color: #6366f1;
+    outline: none;
+    box-shadow: 0 0 5px rgba(99, 102, 241, 0.3);
+}
+
+/* Form Row */
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+/* Pay Button */
+.pay-button {
+    width: 100%;
+    background: #6366f1;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.pay-button:hover {
+    background: #4f46e5;
+}

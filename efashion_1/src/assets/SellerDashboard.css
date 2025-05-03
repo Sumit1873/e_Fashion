@@ -1,0 +1,65 @@
+/* Container */
+.dashboard-container {
+  padding: 2rem;
+  
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+}
+
+/* Title */
+.dashboard-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+/* Grid layout */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+/* Cards */
+.dashboard-card {
+  background: rgb(248, 3, 3);
+  border-radius: 20px;
+
+  box-shadow: 0 8px 20px rgb(250, 1, 1);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Titles and values */
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.card-value {
+  margin-top: -10px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+/* Chart section */
+.mini-chart {
+  margin-top: -2.5rem;
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+
+.dashboard-card canvas {
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 200px;
+}

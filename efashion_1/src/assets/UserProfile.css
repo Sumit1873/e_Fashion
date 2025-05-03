@@ -1,0 +1,73 @@
+/* Ensure container is centered */
+.user-profile-container {
+    max-width: 900px; /* Increased width */
+    width: 90%; /* Makes it responsive */
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: "Poppins", sans-serif;
+}
+
+  /* Header styling */
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Group fields inline */
+  .inline-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  
+  /* Ensure input fields in inline groups take equal width */
+  .inline-group .form-group {
+    flex: 1;
+  }
+  
+  /* Form field styling */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  /* Labels */
+  label {
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 5px;
+  }
+  
+  /* Inputs and selects */
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus,
+  select:focus {
+    border-color: #007bff;
+  }
+  
+  /* Responsive Fix */
+  @media (max-width: 768px) {
+    .inline-group {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
